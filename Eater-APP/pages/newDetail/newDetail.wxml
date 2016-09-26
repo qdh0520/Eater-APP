@@ -1,0 +1,7 @@
+<view class="container">
+<view class="main_content" >
+    <image src="{{detail.thumbnail}}" class="item_img" mode="scaleToFill"></image>
+    <text class="item_part">做法: {{detail.recipe.ingredients}}</text>
+    <text class="item_summary">介绍: {{detail.recipe.sumary}}</text>
+</view>
+</view>

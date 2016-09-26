@@ -1,0 +1,12 @@
+<view class="container">
+<view class="main_content" redirect="false" wx:for="{{caiItems}}">
+<scroll-view scroll-y="true">
+  <navigator url="../newDetail/newDetail?id={{item.menuId}}">
+      <view class="test_item">
+      <image class="item_img" src="{{item.thumbnail}}" mode="scaleToFill"></image>
+      <text class="item_content">{{item.name}}</text>
+      </view>
+ </navigator>
+  </scroll-view>
+</view>
+</view>

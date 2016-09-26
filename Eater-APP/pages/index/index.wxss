@@ -1,0 +1,15 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btnQueryPhone{
+margin-top: 200px;
+}
+.ipt_phone{
+  margin-top: 30px;
+}
+.query_result{
+  margin-top: 30px;
+}
